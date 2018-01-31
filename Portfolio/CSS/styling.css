@@ -1,0 +1,78 @@
+/* type selectors */
+
+p {
+  font-size:30px
+}
+
+span {
+  background-color: blue;
+  color: lightblue;
+  border-top: 2px solid blue;
+  border-left: 5px solid blue;
+  border-right: 5px solid blue;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Pseudo classes */
+
+/* ID Selectors */
+
+/* class selectors */
+
+.background {
+  background-color: lightblue;
+}
+
+.mainHeader {
+  background-color: blue;
+  color: lightblue;
+  padding-top: 3px;
+  padding-bottom: 1px;
+}
+
+.title {
+  text-indent: 60px;
+  font-size: 60px;
+}
+
+.div1 {
+    height: 500px;
+    border: 5px solid blue;
+    border-radius:5px;
+  }
+
+.verticalMenu {
+    width: 200px;
+}
+
+.verticalMenu a {
+    margin: 20px 0;
+    background-color: blue;
+    color: lightblue;
+    display: block;
+    border: 5px solid blue;
+    border-radius: 5px;
+}
+
+.verticalMenu a:hover {
+  width: 300px;
+  margin: 20px 0;
+  background-color: blue;
+  color: lightblue;
+  display: block;
+  border: 10px solid blue;
+  border-radius: 7px;
+  font-size: 1.5em;
+}
+
+.verticalMenu a.active {
+  margin: 20px 0;
+  background-color: blue;
+  color: lightblue;
+  display: block;
+  border: 5px solid blue;
+}
